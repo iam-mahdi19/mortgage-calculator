@@ -1,0 +1,275 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Plus Jakarta Sans;
+	background: #dfecff;
+}
+
+image {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Containers */
+
+.parent-container {
+	display: flex;
+	width: 800px;
+	height: 500px;
+	margin: 100px auto;
+	border-radius: 15px;
+	background: #fff;
+}
+
+.left-container {
+	width: 400px;
+	height: 500px;
+	padding: 20px;
+	border-radius: 15px 0 0 15px;
+}
+
+.right-container {
+	width: 400px;
+	height: 500px;
+	padding: 20px;
+	background: #09364d;
+	border-radius: 0 15px 15px 120px;
+}
+
+/* Text header */
+
+.text-header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.text-header h1 {
+	font-size: 24px;
+}
+
+.text-header p {
+	color: #9b9b9b;
+	font-size: 13px;
+	align-self: end;
+	text-decoration: underline;
+}
+
+/* Mortgage Amount  */
+
+.mortgage-amount {
+	margin-bottom: 30px;
+}
+
+.input-flex .type {
+	width: 70px;
+	height: 25px;
+	background: #e3f3fd;
+	border-radius: 5px 0 0 5px;
+	border: 1px solid #9b9b9b;
+	border-right: none;
+	align-self: end;
+}
+
+.input-flex .type p {
+	width: 10px;
+	margin: auto;
+	color: #8c8c8c;
+	font-size: 16;
+}
+
+.input-flex .input input {
+	width: 305px;
+	height: 25px;
+	border: 1px solid #9b9b9b;
+	border-left: none;
+	border-radius: 0 5px 5px 0;
+	padding-left: 10px;
+	align-self: end;
+}
+
+.term-interest {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.term-interest .term input {
+  width: 100px;
+  height: 25px;
+  border: 1px solid #9b9b9b;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  padding-left: 10px;
+}
+
+.term-interest .term .type {
+  width: 60px;
+  height: 25px;
+  background: #e3f3fd;
+  border: 1px solid #9b9b9b;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  align-self: end;
+}
+
+.term-interest .term .type p {
+  width: 30px;
+	margin: 0 10px;
+	color: #8c8c8c;
+  font-weight: 500;
+	font-size: 16;
+}
+
+.term-interest .interest input {
+  width: 100px;
+  height: 25px;
+  border: 1px solid #9b9b9b;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  padding-left: 10px;
+}
+
+.term-interest .interest .type {
+  width: 30px;
+  height: 25px;
+  background: #e3f3fd;
+  border: 1px solid #9b9b9b;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  align-self: end;
+}
+
+.term-interest .interest .type p {
+  width: 30px;
+	margin:  0 7px;
+	color: #8c8c8c;
+  font-weight: 500;
+	font-size: 16;
+}
+
+.mortgage-type {
+  margin-bottom: 30px;
+}
+
+.mortgage-type .repayment, .interest-only {
+  display: flex;
+  width: 360px;
+  height: 30px;
+  border: 1px solid #9b9b9b;
+  border-radius: 5px;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+
+.mortgage-type  p {
+  font-size: 15px;
+  align-self: center;
+}
+
+.mortgage-type input {
+  margin-right: 10px;
+  color: #D7DA2F;
+}
+
+.calculate {
+  display: flex;
+  width: 240px;
+  height: 43px;
+  background: #D7DA2F;
+  border: 1px solid #D7DA2F;
+  border-radius: 100px;
+  padding: 5px;
+  align-items: center;
+}
+
+button {
+  border: 1px solid #D7DA2F;
+  border-radius: 100px;
+}
+
+.calculate img {
+  margin: 10px;
+}
+
+.calculate p {
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
+.right-container .header {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.right-container .para {
+  color: #8c8c8c;
+  margin-bottom: 30px;
+  font-size: 13px;
+}
+
+.right-container .card {
+  width: 350px;
+  height: 235px;
+  margin: auto;
+  background: #022335;
+  border: 1px solid #022335;
+  border-top: 4px solid #D7DA2F;
+  box-shadow: 1px 1px 1px #09364d;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.right-container .card p {
+  color: #8c8c8c;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.right-container .card h2 {
+  color: #D7DA2F;
+  margin:  20px 0;
+  font-size: 30px;
+}
+
+.right-container .card hr {
+  color: #8c8c8c;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.right-container .card h3 {
+  color: #ccc;
+  margin-top: 0;
+}
+
+.flex{
+  display: flex;
+}
+
+.title {
+  color: #8c8c8c;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.selection {
+  display: flex;
+  background: #d7da2f6e;
+  border: 1px solid #D7DA2F;
+  width: 360px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 6px;
+  margin-bottom: 10px;
+}
